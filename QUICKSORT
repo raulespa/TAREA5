@@ -1,7 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <cstdlib>
-
 
 std::vector<int> v(11);
 std::vector<int> quicksort(std::vector<int> VectorDesordenado);
@@ -22,3 +20,4 @@ int main(void){
     std::cout<<"\n----------------------------\n";
 
     std::cout<<"Vector Ordenado: ";
+    for(int i = 0 ; i <

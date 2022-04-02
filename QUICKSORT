@@ -1,1 +1,27 @@
+METODO QUICKSORT 
+******************************
+.
+.
+#include <iostream>
+#include <vector>
 
+std::vector<int> v(11);
+std::vector<int> quicksort(std::vector<int> VectorDesordenado);
+
+int main(void){
+
+    int n1 = 100;
+    int n2 = -50;
+
+    std::cout<<"Vector Desordenado: ";
+    for(int i = 0 ; i < v.size(); i++){
+        v[i] = std::rand() % n1 + n2;
+        std::cout<<"["<<v[i]<<"]";
+    }
+
+    std::vector<int> resultado = quicksort(v);
+
+    std::cout<<"\n----------------------------\n";
+
+    std::cout<<"Vector Ordenado: ";
+    for(int i = 0 ; i <
